@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kimi Briefing – CGI Presentatie Cybersecurity</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --ink: #172033;
+      --muted: #5d6b82;
+      --line: #d7deea;
+      --brand: #2457ff;
+      --brand2: #8b5cf6;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, Segoe UI, Arial, sans-serif; background: var(--bg); color: var(--ink); line-height:1.55; }
+    .page { width: 210mm; min-height: 297mm; margin: 0 auto; background:#fff; padding: 18mm 16mm 18mm 16mm; position: relative; }
+    h1,h2,h3,h4{ margin:0 0 10px; line-height:1.15; }
+    h1{ font-size:30px; }
+    h2{ font-size:22px; margin-top:18px; }
+    h3{ font-size:17px; margin-top:14px; }
+    h4{ font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); }
+    p,li{ font-size:12px; }
+    .lead{ font-size:14px; color:#25314a; }
+    .tag{ display:inline-block; padding:6px 10px; border-radius:999px; background:#eef3ff; color:#2457ff; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; }
+    .grid-2{ display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:12px; }
+    .grid-3{ display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:12px; }
+    .card{ border:1px solid var(--line); border-radius:16px; background:var(--card); padding:12px; }
+    .quote{ border:1px dashed var(--line); border-radius:14px; background:#fbfcff; padding:12px; }
+    .callout{ border-left:4px solid var(--brand); background:#f7faff; border-radius:0 12px 12px 0; padding:10px 12px; margin:10px 0; }
+    .matrix{ width:100%; border-collapse:collapse; margin-top:10px; }
+    .matrix th,.matrix td{ border:1px solid var(--line); padding:8px; vertical-align:top; font-size:11px; }
+    .matrix th{ background:#f5f8ff; text-align:left; }
+    .chapter{ color:var(--brand); font-weight:800; text-transform:uppercase; letter-spacing:.09em; font-size:10px; }
+    .footer-note{ position:absolute; bottom:8mm; left:16mm; right:16mm; display:flex; justify-content:space-between; color:var(--muted); font-size:9px; }
+    .svg-card{ border:1px solid var(--line); border-radius:16px; padding:8px; background:linear-gradient(180deg,#fff,#fafcff); }
+    svg{ width:100%; height:auto; display:block; }
+    @page { size: A4; margin: 14mm; }
+    @media print { body{ background:#fff; } .page{ width:auto; min-height:auto; margin:0; page-break-after:always; } .page:last-child{ page-break-after:auto; } }
+  </style>
+</head>
+<body>
+  <section class="page">
+    <div class="tag">Prompt-briefing voor Kimi</div>
+    <h1 style="margin-top:16px;">CGI Presentatiebriefing – Cybersecurity</h1>
+    <p class="lead">Dit document is bedoeld als briefing voor een AI-tool die op basis van mijn portfolio een sterke, visueel mooie en overtuigende CGI-presentatie moet maken. De focus ligt dus op het presenteren van mijn portfolio, mijn ontwikkeling en mijn sterkste werk. De rubric en CGI-uitleg zijn ondersteunend en richtinggevend, maar niet de hoofdinhoud.</p>
+    <div class="grid-2" style="margin-top:14px;">
+      <div class="card"><h4>Doel</h4><p>Maak een professionele presentatie voor een CGI van 10 minuten op basis van mijn portfolio.</p></div>
+      <div class="card"><h4>Belangrijkste uitgangspunt</h4><p>De presentatie moet klinken en ogen alsof een student zijn eigen leerproces, werk en ontwikkeling presenteert.</p></div>
+    </div>
+    <div class="svg-card" style="margin-top:16px;">
+      <svg viewBox="0 0 760 280" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#e5e5e5" stroke-width="0.6"/></pattern>
+        </defs>
+        <rect width="760" height="280" fill="#fafafa"/>
+        <rect width="760" height="280" fill="url(#grid)"/>
+        <circle cx="380" cy="140" r="68" fill="#fff" stroke="#2457ff" stroke-width="3"/>
+        <text x="380" y="132" text-anchor="middle" font-size="18" font-family="monospace" fill="#2457ff" font-weight="bold">PORTFOLIO</text>
+        <text x="380" y="154" text-anchor="middle" font-size="12" font-family="monospace" fill="#667085">mijn werk en groei</text>
+        <rect x="50" y="72" width="170" height="60" rx="16" fill="#fff" stroke="#d7deea"/>
+        <rect x="540" y="72" width="170" height="60" rx="16" fill="#fff" stroke="#d7deea"/>
+        <rect x="50" y="170" width="170" height="60" rx="16" fill="#fff" stroke="#d7deea"/>
+        <rect x="540" y="170" width="170" height="60" rx="16" fill="#fff" stroke="#d7deea"/>
+        <text x="135" y="108" text-anchor="middle" font-size="14" font-family="monospace" fill="#2457ff">MODULE 1</text>
+        <text x="625" y="108" text-anchor="middle" font-size="14" font-family="monospace" fill="#00a6a6">MODULE 2</text>
+        <text x="135" y="206" text-anchor="middle" font-size="14" font-family="monospace" fill="#f59e0b">MODULE 3</text>
+        <text x="625" y="206" text-anchor="middle" font-size="14" font-family="monospace" fill="#8b5cf6">GROEI & REFLECTIE</text>
+      </svg>
+    </div>
+    <div class="footer-note"><span>Kimi briefing – CGI presentatie</span><span>1</span></div>
+  </section>
+
+  <section class="page">
+    <div class="chapter">Kernprompt</div>
+    <h2>Hoofdopdracht voor Kimi</h2>
+    <div class="quote">
+      <p><strong>Gebruik deze briefing om een mooie, sterke en logisch opgebouwde presentatie te maken voor een Criterium Gericht Interview (CGI) over de keuzemodule Cybersecurity.</strong></p>
+      <p>De presentatie moet gebaseerd zijn op mijn portfolio en moet aanvoelen alsof ik als student mijn eigen werk presenteer. De toon moet dus persoonlijk, helder en zelfverzekerd zijn, maar niet overdreven formeel of kunstmatig. Vermijd taal die klinkt als een AI-rapport. De presentatie moet visueel aantrekkelijk zijn, modern en strak, met duidelijke structuur, weinig tekst per slide en sterke kernwoorden.</p>
+      <p>De presentatie duurt ongeveer 10 minuten en moet laten zien:</p>
+      <ul>
+        <li>aan welke onderwerpen ik heb gewerkt;</li>
+        <li>waar mijn focus lag;</li>
+        <li>welke onderdelen ik interessant vond;</li>
+        <li>welk werk ik zelf het sterkst vind;</li>
+        <li>hoe ik ben gegroeid in deze keuzemodule;</li>
+        <li>waarom ik vind dat ik de leeruitkomst heb behaald.</li>
+      </ul>
+      <p>Gebruik de drie modules als hoofdstructuur: <strong>Wat is cybersecurity</strong>, <strong>Hoe word je weerbaar</strong> en <strong>Mens &amp; Techniek</strong>. Voeg daarnaast een opening, een CyBoK-geïnspireerde mindmap-slide, een reflectieslide en een sterke afsluiting toe.</p>
+    </div>
+    <div class="footer-note"><span>Kernprompt voor presentatiegeneratie</span><span>2</span></div>
+  </section>
+
+  <section class="page">
+    <div class="chapter">Portfoliobasis</div>
+    <h2>Samenvatting van mijn portfolio</h2>
+    <p class="lead">Onderstaande inhoud vormt de echte basis van de presentatie. De AI moet deze informatie gebruiken als hoofdinhoud, en niet alleen de rubric samenvatten.</p>
+    <div class="grid-3">
+      <div class="card">
+        <h4>Module 1 – Wat is cybersecurity</h4>
+        <p>Deze module gaat over dreigingen, cybercrime, governance, wet- en regelgeving, risicomanagement, bow-tie analyses en maatregelen. Mijn sterkste onderdelen hier zijn governance en risicoanalyse.</p>
+      </div>
+      <div class="card">
+        <h4>Module 2 – Hoe word je weerbaar</h4>
+        <p>Deze module draait om ISMS, BCM, BCP, secure development, softwareweerbaarheid en organisatorische maatregelen. Mijn sterkste onderdeel hier is het Billy Bonka BCP.</p>
+      </div>
+      <div class="card">
+        <h4>Module 3 – Mens en techniek</h4>
+        <p>Deze module gaat over crisismanagement, menselijk gedrag, AI-risico’s, ethical hacking in educatieve context en gesprekspartner zijn. Mijn focus ligt hier op de mensfactor en ethische duiding.</p>
+      </div>
+    </div>
+    <h3>Werk waar ik trots op ben</h3>
+    <ul>
+      <li>de governance-analyse op basis van het Avans-beleid;</li>
+      <li>de risicoanalyse, bow-tie-uitwerking en maatregelenstructuur;</li>
+      <li>het Billy Bonka BCP als voorbeeld van continuïteitsdenken;</li>
+      <li>de reflectie op mensfactor, AI en ethische grenzen.</li>
+    </ul>
+    <h3>Wat mijn ontwikkeling laat zien</h3>
+    <p>Mijn ontwikkeling in de minor laat zien dat ik in het begin vooral technisch naar cybersecurity keek, maar gedurende de periode steeds meer ben gaan denken in risico, governance, continuïteit, menselijk gedrag en herstelvermogen.</p>
+    <div class="footer-note"><span>Portfolio als inhoudelijke basis</span><span>3</span></div>
+  </section>
+
+  <section class="page">
+    <div class="chapter">Presentatie-opbouw</div>
+    <h2>Gewenste slide-structuur</h2>
+    <table class="matrix">
+      <tr><th>Slide</th><th>Doel</th><th>Inhoud</th></tr>
+      <tr><td>1</td><td>Opening</td><td>Titel, naam, keuzemodule, korte intro</td></tr>
+      <tr><td>2</td><td>Mindmap</td><td>CyBoK-geïnspireerde mindmap van onderwerpen en focus</td></tr>
+      <tr><td>3</td><td>Module 1</td><td>Dreigingen, governance, risicoanalyse, wat ik hier geleerd heb</td></tr>
+      <tr><td>4</td><td>Module 1 voorbeeld</td><td>Governance / bow-tie / risicoanalyse als sterk voorbeeld</td></tr>
+      <tr><td>5</td><td>Module 2</td><td>Weerbaarheid, BCM, ISMS, secure development</td></tr>
+      <tr><td>6</td><td>Module 2 voorbeeld</td><td>Billy Bonka BCP als ankerstuk</td></tr>
+      <tr><td>7</td><td>Module 3</td><td>Mensfactor, crisismanagement, AI-risico’s</td></tr>
+      <tr><td>8</td><td>Module 3 voorbeeld</td><td>Ethische duiding en menselijk gedrag</td></tr>
+      <tr><td>9</td><td>Groei</td><td>Hoe ik ben gegroeid en waar mijn focus lag</td></tr>
+      <tr><td>10</td><td>Afsluiting</td><td>Waarom ik denk dat ik de leeruitkomst heb behaald</td></tr>
+    </table>
+    <div class="callout"><strong>Belangrijk:</strong> de presentatie moet niet voelen als een opsomming van opdrachten, maar als een verhaal over mijn ontwikkeling, mijn keuzes en mijn sterkste werk.</div>
+    <div class="footer-note"><span>Gewenste presentatie-opbouw</span><span>4</span></div>
+  </section>
+
+  <section class="page">
+    <div class="chapter">Stijlrichtlijnen</div>
+    <h2>Hoe de presentatie eruit en aan moet voelen</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h4>Visuele stijl</h4>
+        <ul>
+          <li>modern, strak en professioneel;</li>
+          <li>geen overvolle slides;</li>
+          <li>duidelijke headings en kernwoorden;</li>
+          <li>subtiele cybersecurity-sfeer, maar niet clichématig;</li>
+          <li>geschikt voor een studentpresentatie op hbo-niveau.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Toon van de tekst</h4>
+        <ul>
+          <li>persoonlijk en geloofwaardig;</li>
+          <li>geschreven alsof ik zelf presenteer;</li>
+          <li>reflectief, maar niet zweverig;</li>
+          <li>zelfverzekerd, maar niet arrogant;</li>
+          <li>niet te formeel en niet AI-achtig.</li>
+        </ul>
+      </div>
+    </div>
+    <h3>Voorbeeld van gewenste toon</h3>
+    <div class="quote">
+      <p>“In het begin keek ik vooral technisch naar cybersecurity, maar tijdens deze minor ben ik veel meer gaan denken in risico, governance en weerbaarheid. Vooral bij governance, het Billy Bonka BCP en de mensfactor merkte ik dat cybersecurity veel breder is dan alleen techniek.”</p>
+    </div>
+    <h3>Niet doen</h3>
+    <ul>
+      <li>geen zinnen die klinken als een standaard AI-essay;</li>
+      <li>geen overvolle slides met alinea’s tekst;</li>
+      <li>geen te formele managementtaal zonder studentstem;</li>
+      <li>geen losse opdrachtopsomming zonder verhaal of samenhang.</li>
+    </ul>
+    <div class="footer-note"><span>Visuele en inhoudelijke stijlrichtlijnen</span><span>5</span></div>
+  </section>
+
+  <section class="page">
+    <div class="chapter">Hulplijnen</div>
+    <h2>CGI-context en rubric als ondersteuning</h2>
+    <p class="lead">Onderstaande punten zijn ondersteunend. Ze zijn bedoeld om de presentatie slim te laten aansluiten op de beoordeling, maar mogen niet de hoofdinhoud van de presentatie worden.</p>
+    <h3>CGI-context</h3>
+    <ul>
+      <li>10 minuten presentatie</li>
+      <li>15 minuten interview</li>
+      <li>portfolio dient als onderbouwing</li>
+      <li>gebruik van een CyBoK-geïnspireerde mindmap is gewenst</li>
+    </ul>
+    <h3>Rubric in het kort</h3>
+    <table class="matrix">
+      <tr><th>Onderdeel</th><th>Waar presentatie op moet sturen</th></tr>
+      <tr><td>Wat is cybersecurity</td><td>laat samenhang zien tussen governance, risico, wetgeving en maatregelen</td></tr>
+      <tr><td>Hoe word je weerbaar</td><td>toon aan dat weerbaarheid organisatorisch én technisch is</td></tr>
+      <tr><td>Mens en techniek</td><td>verbind ethiek, menselijk gedrag, AI en security aan elkaar</td></tr>
+      <tr><td>Professionele presentatie</td><td>zorg voor visuele rust, duidelijke opbouw en zelfverzekerde toon</td></tr>
+      <tr><td>Groei</td><td>maak zichtbaar hoe ik ben gegroeid in kennis, houding en inzicht</td></tr>
+    </table>
+    <div class="callout"><strong>Belangrijk:</strong> gebruik de rubric als richtlijn voor nadruk en toon, maar laat de presentatie primair draaien om mijn portfolio, mijn ontwikkeling en mijn eigen werk.</div>
+    <div class="footer-note"><span>Rubric en CGI-info als hulplijn</span><span>6</span></div>
+  </section>
+</body>
+</html>
